@@ -1,0 +1,46 @@
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML models
+backend/ml_models/saved_models/*
+!backend/ml_models/saved_models/.gitkeep
+
+# Large datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/rasters/*
+!data/rasters/.gitkeep
+
+data/shapefiles/*
+!data/shapefiles/.gitkeep
+
+# Node modules
+frontend/node_modules/
+
+# Build files
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
